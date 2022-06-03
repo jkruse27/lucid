@@ -38,7 +38,7 @@ except:
   raise
 
 import ctypes
-from ctypes import pointer
+from ctypes import pointer, util
 import os
 
 os.environ['PYOPENGL_PLATFORM'] = 'egl'
